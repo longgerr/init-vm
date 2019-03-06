@@ -21,3 +21,11 @@ Scripts to init tools for new Ubuntu VM
       && ./init.sh
     ```
 1. Install VirtualBox Guest Additions
+1. Install go
+    ```sh
+    ./go-install.sh --64
+    ```
+1. Install docker
+    ```sh
+    ./docker-install.sh
+    ```
