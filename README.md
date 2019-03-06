@@ -12,6 +12,7 @@ Scripts to init tools for new Ubuntu VM
     && cd init-vm \
     && git config user.email "longgerr@gmail.com" \
     && git config user.name "longgerr" \
+    && git config --global core.editor "vim" \
     && ./init.sh
   ```
 * Install VirtualBox Guest Additions
