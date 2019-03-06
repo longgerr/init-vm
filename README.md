@@ -8,6 +8,10 @@ Scripts to init tools for new Ubuntu VM
   cd /tmp \
     && sudo apt update \
     && sudo apt install -y git gcc make perl \
-    && git clone git@github.com:longgerr/init-vm.git
+    && git clone https://github.com/longgerr/init-vm.git \
+    && cd init-vm \
+    && git config user.email "longgerr@gmail.com" \
+    && git config user.name "longgerr" \
+    && ./init.sh
   ```
 * Install VirtualBox Guest Additions
