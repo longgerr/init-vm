@@ -7,7 +7,7 @@ Scripts to init tools for new Ubuntu VM
   ```sh
   cd /tmp \
     && sudo apt update \
-    && sudo apt install -y git gcc make perl \
+    && sudo apt install -y git gcc make perl vim \
     && git clone https://github.com/longgerr/init-vm.git \
     && cd init-vm \
     && git config user.email "longgerr@gmail.com" \
