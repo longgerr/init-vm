@@ -12,7 +12,7 @@ Scripts to init tools for new Ubuntu VM
     ```sh
     cd $HOME \
       && sudo apt update \
-      && sudo apt install -y git gcc make perl vim net-tools \
+      && sudo apt install -y git gcc make perl vim net-tools openssh-server ansible \
       && git clone git@github.com:longgerr/init-vm.git \
       && cd init-vm \
       && git config user.email "longgerr@gmail.com" \

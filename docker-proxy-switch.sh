@@ -1,7 +1,7 @@
 #!/bin/bash
 
 http_proxy="http://10.38.24.10:802/"
-https_proxy="https://10.38.24.10:802/"
+https_proxy="http://10.38.24.10:802/"
 
 CONF_FOLDER="/etc/systemd/system/docker.service.d"
 HTTP_PROXY_CONF="${CONF_FOLDER}/http-proxy.conf"
