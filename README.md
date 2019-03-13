@@ -49,3 +49,7 @@ Scripts to init tools for new Ubuntu VM
         ```bash
         ./go-install-tools.sh
         ```
+ 1. Install mysql-workbench
+    ```sh
+    sudo apt install mysql-workbench
+    ```
