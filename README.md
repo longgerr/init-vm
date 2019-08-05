@@ -8,7 +8,7 @@ Scripts to init tools for new Ubuntu VM
     ssh-keygen
     cat ~/.ssh/id_rsa.pub
     ```
-1. Install basic tools
+1. Install basic tools (Ubuntu)
     ```sh
     cd $HOME \
       && sudo apt update \
@@ -23,6 +23,13 @@ Scripts to init tools for new Ubuntu VM
     # Perminantly disable swap
     sudo sed -i 's|/swapfile|#/swapfile|g' /etc/fstab
     ```
+1. Install basic tools (CentOS)
+   ```sh
+   cd $HOME \
+     && sudo yum remove git \
+     && sudo yum install https://centos7.iuscommunity.org/ius-release.rpm \
+     && sudo yum install git2u-all ansible -y
+   ```
 1. Install VirtualBox Guest Additions
 1. Install docker
     ```sh
